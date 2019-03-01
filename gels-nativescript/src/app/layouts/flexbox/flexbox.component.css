@@ -1,0 +1,18 @@
+/* Add mobile styles for the component here.  */
+Label {
+
+    height: 50;
+    width: 50;
+}
+
+#it1 {
+    background-color: red;
+}
+
+#it2 {
+    background-color: green;
+}
+
+#it3 {
+    background-color: yellow;
+}
