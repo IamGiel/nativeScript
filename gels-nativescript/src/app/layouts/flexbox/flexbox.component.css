@@ -1,8 +1,8 @@
 /* Add mobile styles for the component here.  */
 Label {
 
-    height: 50;
-    width: 50;
+    height: 100;
+    width: 250;
 }
 
 #it1 {
@@ -15,4 +15,10 @@ Label {
 
 #it3 {
     background-color: yellow;
+}
+
+FlexboxLayout {
+    border-color: green;
+    border-width: 2;
+    width: 120;
 }
