@@ -1,24 +1,10 @@
 <!-- <Button text="layout-assignment works!" class="btn btn-primary"></Button> -->
 
-<!-- solution 1 -->
-<!-- <FlexboxLayout flexWrap="nowrap" flexDirection="row" alignItems="flex-start" justifyContent="space-between">
-    <Label id="it1" text="Item 1"></Label>
-    <Label id="it2" text="Item 2" alignSelf="flex-end"></Label>
-    <Label id="it3" text="Item 3"></Label>
-</FlexboxLayout> -->
-
-<!-- solution 2 -->
-<!-- 
-<FlexboxLayout flexDirection="column" alignItems="center" justifyContent="space-around">
-    <Label id="it1" text="Item 1"></Label>
-    <Label id="it2" text="Item 2"></Label>
-    <Label id="it3" text="Item 3"></Label>
-</FlexboxLayout> -->
-
-<!-- solution 3 -->
-
-<FlexboxLayout flexDirection="column" alignItems="stretch" justifyContent="space-around">
-    <Label id="it1" text="Item 1"></Label>
-    <Label id="it2" text="Item 2"></Label>
-    <Label id="it3" text="Item 3"></Label>
-</FlexboxLayout>
+<!--  grid layout assignment -->
+<GridLayout rows="80, 200, 200, 40, 80" columns="100, 60,20, 300">
+    <Label id="it1" text="Item 1" row="0" col="0"></Label>
+    <Label id="it2" text="Item 2" row="1" col="1"></Label>
+    <Label id="it3" text="Item 3" row="2" col="2"></Label>
+    <Label id="it4" text="Item 4" row="3" col="3" colSpan="2" verticalAlignment="top"></Label>
+    <Label id="it5" text="Item 5" row="4" col="1" rowSpan="2"></Label>
+</GridLayout>

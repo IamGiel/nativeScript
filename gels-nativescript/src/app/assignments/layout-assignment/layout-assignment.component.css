@@ -1,10 +1,10 @@
 /* Add mobile styles for the component here.  */
 /* Add mobile styles for the component here.  */
-Label {
+/* Label {
 
     height: 40;
     width: 80;
-}
+} */
 
 #it1 {
     background-color: red;
@@ -15,7 +15,15 @@ Label {
 }
 
 #it3 {
-    background-color: yellow;
+    background-color: brown;
+}
+
+#it4 {
+    background-color: orange;
+}
+
+#it5 {
+    background-color: blue;
 }
 
 /* solution 3 css */
