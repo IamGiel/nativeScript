@@ -7,6 +7,7 @@ import { CurrentChallengeComponent } from "./challenges/current-challenge/curren
 import { StackComponent } from './layouts/stack/stack.component';
 import { FlexboxComponent } from './layouts/flexbox/flexbox.component';
 import { LayoutAssignmentComponent } from './assignments/layout-assignment/layout-assignment.component';
+import { GridComponent } from './layouts/grid/grid.component';
 
 // Uncomment and add to NgModule imports if you need to use two-way binding
 // import { NativeScriptFormsModule } from "nativescript-angular/forms";
@@ -17,7 +18,7 @@ import { LayoutAssignmentComponent } from './assignments/layout-assignment/layou
 @NgModule({
   bootstrap: [AppComponent],
   imports: [NativeScriptModule, NativeScriptFormsModule],
-  declarations: [AppComponent, CurrentChallengeComponent, StackComponent, FlexboxComponent, LayoutAssignmentComponent],
+  declarations: [AppComponent, CurrentChallengeComponent, StackComponent, FlexboxComponent, LayoutAssignmentComponent, GridComponent],
   providers: [],
   schemas: [NO_ERRORS_SCHEMA]
 })

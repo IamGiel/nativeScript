@@ -1,0 +1,27 @@
+/* Add mobile styles for the component here.  */
+Label {
+
+    /* height: 40;
+    width: 80; */
+}
+
+#it1 {
+    background-color: red;
+}
+
+#it2 {
+    background-color: green;
+}
+
+#it3 {
+    background-color: yellow;
+}
+
+/* solution 3 css */
+GridLayout {
+    border-color: green;
+    border-width: 2;
+    width: 350;
+    height: 100%;
+    background-color: pink;
+}
