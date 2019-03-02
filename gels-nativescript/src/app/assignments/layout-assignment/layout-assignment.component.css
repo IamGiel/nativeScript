@@ -17,3 +17,11 @@ Label {
 #it3 {
     background-color: yellow;
 }
+
+FlexboxLayout {
+    border-color: green;
+    border-width: 2;
+    width: 200;
+    height: 70%;
+    background-color: pink;
+}
