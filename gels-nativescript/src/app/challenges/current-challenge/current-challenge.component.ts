@@ -7,10 +7,6 @@ import { Component } from "@angular/core";
   moduleId: module.id
 })
 export class CurrentChallengeComponent {
-  challengeDescription: String = "";
+  // challengeDescription: String = "";
   currentChallenge: String = "";
-  onSetChallenge() {
-    console.log("tap works!");
-    this.currentChallenge = this.challengeDescription;
-  }
 }
