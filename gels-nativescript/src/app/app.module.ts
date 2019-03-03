@@ -8,6 +8,7 @@ import { StackComponent } from './layouts/stack/stack.component';
 import { FlexboxComponent } from './layouts/flexbox/flexbox.component';
 import { LayoutAssignmentComponent } from './assignments/layout-assignment/layout-assignment.component';
 import { GridComponent } from './layouts/grid/grid.component';
+import { AbsoluteComponent } from './layouts/absolute/absolute.component';
 
 // Uncomment and add to NgModule imports if you need to use two-way binding
 // import { NativeScriptFormsModule } from "nativescript-angular/forms";
@@ -18,7 +19,7 @@ import { GridComponent } from './layouts/grid/grid.component';
 @NgModule({
   bootstrap: [AppComponent],
   imports: [NativeScriptModule, NativeScriptFormsModule],
-  declarations: [AppComponent, CurrentChallengeComponent, StackComponent, FlexboxComponent, LayoutAssignmentComponent, GridComponent],
+  declarations: [AppComponent, CurrentChallengeComponent, StackComponent, FlexboxComponent, LayoutAssignmentComponent, GridComponent, AbsoluteComponent],
   providers: [],
   schemas: [NO_ERRORS_SCHEMA]
 })
