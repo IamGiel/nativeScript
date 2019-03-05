@@ -1,7 +1,7 @@
 <!-- <GridLayout rows="auto,*" columns="2*,*"> -->
 
 <stackLayout>
-    <Label class="title" [text]="currentChallenge" verticalAlignment="center">
+    <Label class="title" [text]="challenge" *ngFor="let challenge of challenges" verticalAlignment="center">
     </Label>
 </stackLayout>
 

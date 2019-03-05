@@ -9,5 +9,6 @@ import { Component, Input } from "@angular/core";
 export class CurrentChallengeComponent {
   // bind
   // challengeDescription: String = "";
-  @Input() currentChallenge: String = "";
+  // @Input() currentChallenge: String = "";
+  @Input() challenges: String[] = [];
 }
