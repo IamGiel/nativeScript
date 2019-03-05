@@ -1,4 +1,4 @@
-import { Component, OnInit } from "@angular/core";
+import { Component, EventEmitter OnInit, Input, Output } from "@angular/core";
 
 @Component({
   selector: "ns-challenge-edit",
@@ -6,13 +6,14 @@ import { Component, OnInit } from "@angular/core";
   styleUrls: ["./challenge-edit.component.css"],
   moduleId: module.id
 })
-export class ChallengeEditComponent implements OnInit {
+export class ChallengeEditComponent {
+  // emit custom property, and to allow to listen to this from outside component,
+  // decorate it with @Input
+  @Output() input = new EventEmitter<String>()
   challengeDescription: String = "";
-  constructor() {}
 
-  ngOnInit() {}
   onSetChallenge() {
     console.log("tap works!");
-    // this.currentChallenge = this.challengeDescription;
+    this.input.emit() // emit the propry - an event which holds String
   }
 }

@@ -1,7 +1,9 @@
 <!-- https://docs.nativescript.org/angular/core-concepts/angular-navigation.html#page-router-outlet -->
 <GridLayout>
-    <ns-challenge-edit></ns-challenge-edit>
-    <ns-current-challenge></ns-current-challenge>
+    <!-- (input) is an event emitter decalred inside its component, decorated by @Output() = custom component event binding -->
+    <ns-challenge-edit (input)=""></ns-challenge-edit>
+    <!-- [currentChallenge] is an event emitter decalred inside its component, decorated by @Input() = component property binding -->
+    <ns-current-challenge [currentChallenge]></ns-current-challenge>
 </GridLayout>
 <!-- <AbsoluteLayout>
     <ns-absolute></ns-absolute>
